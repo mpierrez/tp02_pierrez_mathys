@@ -1,0 +1,51 @@
+<div *ngIf="formData.lastname !== undefined" class="container mt-4">
+  <h2 class="mb-4">Résumé des informations envoyées</h2>
+  <table class="table table-bordered">
+    <tbody>
+      <tr>
+        <th scope="row">Nom</th>
+        <td>{{ formData.lastname }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Prénom</th>
+        <td>{{ formData.firstname }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Civilité</th>
+        <td>{{ formData.civility }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Adresse</th>
+        <td>{{ formData.address }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Code postal</th>
+        <td>{{ formData.zipCode }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Ville</th>
+        <td>{{ formData.city }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Pays</th>
+        <td>{{ formData.country }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Téléphone</th>
+        <td>{{ formData.phone }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Email</th>
+        <td>{{ formData.email }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Login</th>
+        <td>{{ formData.login }}</td>
+      </tr>
+      <tr>
+        <th scope="row">Mot de passe</th>
+        <td>{{ formData.password }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
