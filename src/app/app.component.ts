@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AppFormComponent } from './app-form/app-form.component';
 import { DataSummaryComponent } from './data-summary/data-summary.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, AppFormComponent, DataSummaryComponent],
+  imports: [RouterOutlet, AppFormComponent, DataSummaryComponent, FooterComponent, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
